@@ -1,0 +1,75 @@
+.menu {
+    width: 100%;
+    background: black;
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+
+}
+
+.menu li{
+    display: inline-block;
+
+}
+
+.menu li a{
+    padding : 10px 20px;
+    display: inline-block;
+    color: white
+
+}
+.img{
+    width: 100%;
+    background: #33AFFF;
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    }
+
+.img ul{
+    background: 33ACFF;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+
+
+
+}
+div.noticias{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+div.noticias div div.desc{
+    background-color: beige;
+    padding: 10px;
+}
+div.noticias div{
+    width: 300px;
+}
+
+div.noticias img{
+    width: 100%;
+    position: relative;
+}
+div.noticias h1{
+    font-size: 25px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px; 
+}
+
+footer{
+    background-color: gainsboro;
+}
+
+.formulario textarea {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 300px;
+}

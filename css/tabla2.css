@@ -1,0 +1,159 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+nav {
+    color: #fff;
+    background-color: #ee6e73;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+  }
+  
+  nav.nav-extended {
+    height: auto;
+  }
+  
+  nav.nav-extended .nav-wrapper {
+    min-height: 56px;
+    height: auto;
+  }
+  
+  nav.nav-extended .nav-content {
+    position: relative;
+    line-height: normal;
+  }
+  
+  nav a {
+    background-color: #09017aff;
+  }
+  
+  nav i,
+  nav [class^="mdi-"], nav [class*="mdi-"],
+  nav i.material-icons {
+    display: block;
+    font-size: 24px;
+    height: 56px;
+    line-height: 56px;
+  }
+  
+  nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+  }
+  
+  @media only screen and (min-width: 993px) {
+    nav a.sidenav-trigger {
+      display: none;
+    }
+  }
+  
+  nav .sidenav-trigger {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+  }
+  
+  nav .sidenav-trigger i {
+    height: 56px;
+    line-height: 56px;
+  }
+  
+  nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+  }
+  
+  nav .brand-logo.center {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+.menu {
+    width: 100%;
+    background: black;
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+
+}
+
+.menu li{
+    display: inline-block;
+
+}
+
+.menu li a{
+    padding : 10px 20px;
+    display: inline-block;
+    color: white;
+    align-content: center;
+    
+
+}
+
+.menu ul li{
+    display: inline-block;
+    align-content: center;
+}
+.img{
+    width: 100%;
+    background: #33AFFF;
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    }
+
+.img ul{
+    background: 33ACFF;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+
+
+
+}
+body{
+	background-color: #c5e6e0;
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 10px ;
+	width: 100px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #868686;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: 33AFFF;
+	color: white;
+}

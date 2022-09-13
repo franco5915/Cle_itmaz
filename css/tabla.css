@@ -1,0 +1,88 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+
+.menu {
+    width: 100%;
+    background: rgb(11, 50, 226);
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+
+}
+
+.menu li{
+    display: inline-block;
+
+}
+
+.menu li a{
+    padding : 10px 20px;
+    display: inline-block;
+    color: white;
+    align-content: center;
+    
+
+}
+
+.menu ul li{
+    display: inline-block;
+    align-content: center;
+}
+.img{
+    width: 100%;
+    background: #ffffff;
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    }
+
+.img ul{
+    background: 33ACFF;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+
+
+
+}
+body{
+	background-color: #ffffff;
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 10px auto;
+	width: 1000px auto;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #2d0b7c;
+	color: white;
+}

@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Log in</title>
+</head>
+<body>
+        <div id="content">
+            <h1>Log</h1> 
+            <form action="login.php" method="POST">
+           
+                <table border="1">
+                    <tr>
+                        <td><label>noControl</label></td>
+                        <td><input type="number" name="noControl" placeholder="noControl" required/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Contraseña</label></td>
+                        <td><input type="password" name="pass" placeholder="**********************" required/></td>
+                    </tr>
+                   
+                    <tr>
+                        <td><label><input name="entrar" type="submit" value="entrar"></input></label></td>
+                        <td><label><input type="reset" value="Reestablecer"></input></label></td>
+                    </tr>
+            </form>
+        </div>
+        <a href="Index.html">Regresar</a>
+</html>
